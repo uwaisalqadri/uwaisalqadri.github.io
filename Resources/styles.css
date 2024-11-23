@@ -11,25 +11,8 @@ body {
   display: inline-block;
   margin-right: 40px;
   font-size: 18px;
-  color: #333;
+  color: #000;
   font-weight: bold;
-}
-
-.btn-contact {
-  font-size: 18px;
-  color: #fff;
-  font-weight: bold;
-}
-
-.btn-container {
-  width: 142px;
-  height: 52px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
 }
 
 .description {
@@ -38,4 +21,26 @@ body {
   color: #555;
   line-height: 1.5;
   text-align: justify;
+  position: relative;
+}
+
+.btn-contact {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-container {
+  margin-top: 60px;
+  width: 142px;
+  height: 52px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  vertical-align: center;
+  position: relative;
 }

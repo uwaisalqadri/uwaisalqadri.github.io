@@ -33,17 +33,15 @@ struct WestHTMLFactory: HTMLFactory {
               .span(.class("tab"), .text(tab))
           },
           .div(
-            .class("v1553_40"),
-            .div(.class("v1553_4")),
             .span(
               .class("description"),
               .text("A passionate Mobile Software Engineer with a strong background in Swift (Apple Platforms) and Kotlin (Android, Kotlin Multiplatform). Learned coding in high school and expanded his skills through self-learning on the Internet, getting his first job as a Software Engineer six months before graduating from high school.")
             )
-          ),
-          .div(
-            .class("btn-container"),
-            .span(.class("btn-contact"), .text("Contact Me"))
           )
+        ),
+        .div(
+          .class("btn-container"),
+          .span(.class("btn-contact"), .text("Contact Me"))
         )
       )
     )

@@ -1,2 +1,41 @@
-@import url(main.css);
-@import url(dark.css);
+body {
+  font-family: 'Courier Prime', monospace;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-contact {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-container {
+  width: 142px;
+  height: 52px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  text-align: justify;
+}

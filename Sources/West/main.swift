@@ -2,57 +2,27 @@ import Foundation
 import Publish
 import Plot
 
-typealias Link = (name: String, url: String)
-typealias AppStoreLink = String
-
-// This type acts as the configuration for your website.
-struct AppLandingPage: Website {
+struct West: Website {
   enum SectionID: String, WebsiteSectionID {
-    // Add the sections that you want your website to contain here:
-    case index
+    case about
+    case resume
+    case app
+    case articles
+    case favoriteBooks
   }
   
-  struct ItemMetadata: WebsiteItemMetadata {
-    // Add any site-specific metadata that you want to use here.
-  }
+  struct ItemMetadata: WebsiteItemMetadata { }
   
-  // Update these properties to configure your website:
-  var url = URL(string: "https://uwaisalqadri.github.io/")!
-  var name = "Uwais Personal Website"
-  var description = "Blogs, Personal Story, Newsletter and app"
+  var url = URL(string: "https://uwaisalqadri.github.io")!
+  var name = "Uwais Alqadri"
+  var description = "A passionate Mobile Software Engineer."
   var language: Language { .english }
-  var imagePath: Path? { "images/icon.png" }
+  var imagePath: Path? { "images/person.png" }
 }
 
-extension Website {
-  var appStoreLink: AppStoreLink? {
-    nil //"https://itunes.apple.com/xyz"
-  }
-  
-  var testflightLink: AppStoreLink? {
-    nil
-  }
-  
-  var plausibleSiteName: String? {
-    nil
-  }
-  
-  var credits: Link {
-    ("Some Developer(s)", "https://")
-  }
-  
-  var footerLinks: [Link] {
-    [(name: "Home", url: "/"),
-     (name: "Support", url: "mailto:"),
-     (name: "About", url: "/about")]
-  }
-}
-
-// This will generate your website using the built-in Foundation theme:
-try AppLandingPage().publish(using: [
+try West().publish(using: [
   .copyResources(at: "Images", to: "images"),
   .addMarkdownFiles(),
-  .generateHTML(withTheme: .landingpage),
+  .generateHTML(withTheme: .west),
   .generateSiteMap()
 ])
-

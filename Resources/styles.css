@@ -1,46 +1,322 @@
-body {
-  font-family: 'Courier Prime', monospace;
-}
-
-.container {
-  padding: 20px;
-  background-color: #f4f4f4;
-}
-
-.tab {
-  display: inline-block;
-  margin-right: 40px;
-  font-size: 18px;
-  color: #000;
-  font-weight: bold;
-}
-
-.description {
-  margin-top: 20px;
-  font-size: 16px;
-  color: #555;
-  line-height: 1.5;
-  text-align: justify;
+/* Main container */
+.UwaisLandingPage {
+  width: 1440px;
+  height: 5307px;
   position: relative;
+  background: white;
 }
 
-.btn-contact {
-  font-size: 18px;
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-}
-
-.btn-container {
-  margin-top: 60px;
-  width: 142px;
-  height: 52px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
+/* Header section */
+.UwaisAlqadri20 {
+  left: 610px;
+  top: 257px;
   position: absolute;
-  top: 0px;
+  color: black;
+  font-size: 27.79px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Group components */
+.Group1 {
+  width: 142.70px;
+  height: 52.04px;
+  left: 610px;
+  top: 508px;
+  position: absolute;
+}
+
+.Group1 .Rectangle1 {
+  width: 142.70px;
+  height: 52.04px;
   left: 0px;
-  overflow: hidden;
-  vertical-align: center;
+  top: 0px;
+  position: absolute;
+  background: black;
+}
+
+.Group1 .ReachMe {
+  left: 23px;
+  top: 15.02px;
+  position: absolute;
+  color: white;
+  font-size: 19.68px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Group3 {
+  width: 695px;
+  height: 263.05px;
+  left: 372px;
+  top: 215.20px;
+  position: absolute;
+}
+
+.Group3 .Image1 {
+  width: 254.45px;
+  height: 263.05px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.Group3 .APassionateMobileSoftwareEngineer {
+  width: 457.02px;
+  left: 237.98px;
+  top: 84.80px;
+  position: absolute;
+  text-align: justify;
+}
+
+.Group3 .APassionateMobileSoftwareEngineer span {
+  color: black;
+  font-size: 18px;
+  font-family: Courier Prime;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.Group3 .APassionateMobileSoftwareEngineer span.highlight {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* App sections */
+.Giffy, .Inos {
+  position: absolute;
+  color: black;
+  font-size: 20.97px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Giffy {
+  left: 484.84px;
+  top: 1511.29px;
+}
+
+.Inos {
+  left: 887px;
+  top: 1511.29px;
+}
+
+.GifAppBuildWithTheComposableArchitecture {
+  width: 261.07px;
+  left: 386px;
+  top: 1542.98px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 14.39px;
+  font-family: Courier Prime;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.DeviceFunctionalityChecking {
+  width: 278.42px;
+  left: 774.58px;
+  top: 1542.22px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 14.39px;
+  font-family: Courier Prime;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* Frame and app icon styles */
+.Frame5019 {
+  width: 105.18px;
+  height: 105.18px;
+  left: 861.35px;
+  top: 1380px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.Frame5019 .AppIcon2 {
+  width: 105.18px;
+  height: 105.18px;
+  border-radius: 24.83px;
+}
+
+.Frame5019 .Rectangle2400 {
+  width: 94.10px;
+  height: 94.10px;
+  border-radius: 17.53px;
+  border: 1.10px white solid;
+}
+
+.Frame5019 .Group {
+  width: 45.30px;
+  height: 63.43px;
   position: relative;
+}
+
+.Frame5019 .Vector {
+  width: 45.30px;
+  height: 63.43px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(133, 195, 254, 0.23) 0%, rgba(192, 224, 254, 0.90) 100%);
+  border: 1.46px white solid;
+}
+
+.Frame5019 .Vector.small {
+  width: 9.06px;
+  height: 9.06px;
+  left: 18.14px;
+  top: 45.30px;
+  background: #1370EE;
+}
+
+/* App store buttons */
+.Group4, .Group6 {
+  width: 107.67px;
+  height: 39.26px;
+  position: absolute;
+}
+
+.Group4 {
+  left: 463.72px;
+  top: 1646.35px;
+}
+
+.Group6 {
+  left: 866.63px;
+  top: 1646.35px;
+}
+
+.Group4 .Rectangle1, .Group6 .Rectangle1 {
+  width: 107.67px;
+  height: 39.26px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border: 1.51px black solid;
+}
+
+.Group4 .AppStore, .Group6 .AppStore {
+  left: 13.58px;
+  top: 11.33px;
+  position: absolute;
+  color: black;
+  font-size: 14.85px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Section headings */
+.ProudlyPresent, .RecentWritings {
+  position: absolute;
+  color: black;
+  font-size: 27.79px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.ProudlyPresent {
+  left: 595px;
+  top: 1273px;
+}
+
+.RecentWritings {
+  left: 595px;
+  top: 2274px;
+}
+
+/* Article groups */
+.Group9 {
+  width: 742.35px;
+  height: 206.31px;
+  position: absolute;
+}
+
+.Group9 .Rectangle2402 {
+  width: 742.35px;
+  height: 206.31px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.Group9 .Rectangle2402.light {
+  background: #F8F8F8;
+}
+
+.Group9 .Rectangle2402.dark {
+  background: black;
+}
+
+.Group9 .WriteSwiftLikeApple {
+  position: absolute;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* Footer styles */
+.MadeByWesWithPublish {
+  left: 590px;
+  top: 4716px;
+  position: absolute;
+  text-align: justify;
+}
+
+.MadeByWesWithPublish span {
+  color: black;
+  font-size: 18px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.MadeByWesWithPublish span.link {
+  text-decoration: underline;
+}
+
+/* Reference section */
+.ToKnowMyReferences {
+  left: 545px;
+  top: 3468px;
+  position: absolute;
+  color: black;
+  font-size: 27.79px;
+  font-family: Courier Prime;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.Rectangle2405, .Rectangle2408, .Rectangle2409 {
+  width: 256.48px;
+  height: 330.97px;
+  position: absolute;
+  background: #D9D9D9;
+}
+
+.Rectangle2405 {
+  left: -32px;
+  top: 3570.01px;
+}
+
+.Rectangle2408 {
+  left: 907.17px;
+  top: 3570.01px;
+}
+
+.Rectangle2409 {
+  left: 1215.52px;
+  top: 3570.01px;
 }

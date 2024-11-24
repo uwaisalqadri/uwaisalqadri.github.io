@@ -5,7 +5,6 @@ import Plot
 struct West: Website {
   enum SectionID: String, WebsiteSectionID {
     case about
-    case resume
     case app
     case articles
     case favoriteBooks

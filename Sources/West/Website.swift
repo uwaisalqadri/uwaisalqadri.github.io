@@ -18,22 +18,22 @@ struct WestHTMLFactory: HTMLFactory {
     HTML(
       .head(for: index, on: context.site),
       .body(
-        .makeSection(.about),
         .div(
-          .class("Group14"),
-          .div(.class("Scroll"), .text("scroll")),
+          .class(".website"),
+          .makeSection(.about),
           .div(
-            .class("CiChevronDown"),
-            .div(.class("Vector"))
+            .class("scroll-indicator"),
+            .div(.class("scroll-text"), .text("scroll")),
+            .img(.class("chevron-down"), .src("images/chevron-down.png"))
+          ),
+//          .makeSection(.app),
+//          .makeSection(.articles),
+//          .makeSection(.favoriteBooks),
+          .div(
+            .class("made-by-wes"),
+            .span(.text("made by Wes with ")),
+            .span(.class("publish"), .text("Publish"))
           )
-        ),
-        .makeSection(.app),
-        .makeSection(.articles),
-        .makeSection(.favoriteBooks),
-        .div(
-          .class("MadeByWesWithPublish"),
-          .span(.text("made by Wes with ")),
-          .span(.text("Publish"))
         )
       )
     )
@@ -54,7 +54,7 @@ extension Node where Context == HTML.BodyContext {
 private extension Node where Context == HTML.DocumentContext {
   static func head<T: Website>(
     for location: Location,
-    stylesheetPaths: [String] = ["/styles.css", "https://fonts.googleapis.com/css?family=Courier+Prime&display=swap"],
+    stylesheetPaths: [String] = ["styles.css", "https://fonts.googleapis.com/css?family=Courier+Prime&display=swap"],
     on site: T
   ) -> Node {
     var title: String {

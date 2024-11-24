@@ -29,7 +29,7 @@ extension Node where Context == HTML.BodyContext {
         .text("Device Functionality Checking using CoreBluetooth, CoreLocation, AVFoundation, CoreMotion, LocalAuthentication, AudioToolbox, Speech, UIDevice."),
         .div(
           .class("Frame5019"),
-          .img(.class("AppIcon2"), .src("/images/app-giffy")),
+          .img(.class("AppIcon2"), .src("images/app-giffy")),
           .div(.class("Rectangle2400")),
           .div(
             .class("Group"),
@@ -37,7 +37,7 @@ extension Node where Context == HTML.BodyContext {
             .div(.class("Vector"))
           )
         ),
-        .img(.class("1"), .src("/images/app-in-os")),
+        .img(.class("1"), .src("images/app-in-os")),
         .div(
           .class("Group4"),
           .div(.class("Rectangle1")),
